@@ -1,0 +1,227 @@
+{
+  "name": "Christos Giannakopoulos",
+  "label": "Physics Ph.D.",
+  "image_path": "portfolio_media/profile.jpg",
+  "contact": {
+    "email": "christos.giannakopoulos.202@gmail.com",
+    "phone": "",
+    "location": "Cincinnati, OH"
+  },
+  "summary": "Experimental cosmologist, passionate about quantifying real-world problems and derivering data-driven solutions. Credit: Corey M. Schafer for the inspiration.",
+  "url": "",
+  "social_links": [
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/christos-giannakopoulos-02186a369/",
+      "svg_path": "img/linkedin.svg"
+    },
+    {
+      "label": "Github",
+      "url": "https://github.com/giannacs",
+      "svg_path": "img/github.svg"
+    }
+  ],
+  "work_experience": [
+    {
+      "company": "University of Cincinnati",
+      "position": "Research Assistant",
+      "url": "https://www.artsci.uc.edu/natural-sciences/physics.html",
+      "start_date": "2019",
+      "end_date": "Fall 2025",
+      "summary": "Ph.D. Candidate",
+      "highlights": [
+        "Cutting edge research on experimental Cosmology within the BICEP/Keck Collaboration",
+        "Project lead on multiple calibration measurements",
+        "Quantified instrumental systematic errors and how they impact the science goal of measuring the tensor-to-scalar ratio 'r'. A non-zero measurement of r, would constitute proof of Inflation and primordial gravitational waves."
+      ]
+    },
+    {
+      "company": "Hillsdale College",
+      "position": "Teaching assistant",
+      "url": "https://www.hillsdale.edu/courses/college-physics/",
+      "start_date": "2016",
+      "end_date": "2019",
+      "summary": "",
+      "highlights": [
+        "Taught and tutored young students the fundementals of Physics ",
+        "Completed research project on the behavior of Nebulae formed by Pulsar Winds using the Sardinia Radio Telescope (SRT)"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "preamble": "This section contains a small list of projects I develop while pursuing my Physics Ph.D., and are relevant to my interests and hobbies. These include both applied and more theoretical topics and I update them from time-to-time. Some of these projects are notes on existing mathematical tools or notions that I add my personal insight to. Note: this list of projects are exclusively side-projects and do not include any analysis of real Cosmological data.",
+      "title": "Model Parameter Estimation with Maximum Likelihood",
+      "summary": "I am passionate about statistics. Maximum likelihood estimation is a branch of statistics that is sometimes poorly motivated when taught in higher education. This project is an attempt at showing all the mathematical steps that lead to the maximum likelihood estimation method",
+      "url": "https://github.com/giannacs",
+      "highlights": [" Worked example of how maximum likelihood approach is used when estimating model parameters  ",
+                     " Full formalism behind the worked example, explained step-by-step "],
+      "images": [
+        {
+          "img_path": "portfolio_media/mle1.png",
+          "caption": "Formalism"
+        },
+        {
+          "img_path": "portfolio_media/mle2.png",
+          "caption": "Estimated Parameters"
+        }
+      ]
+    },
+    {
+      "title": "Financial Modeling - Compound Interest Calculator",
+      "summary": "Outside of my research in Physics, I am passionate about understanding and modeling financial markets. Most recently, I built my own compound interest calculator from first principles. I noticed that a lot of the calculator online lack tranparency in their calculations and can be perceived as fairly limited to a financially educated person. This custom-built calculator is meant to be used by such person. Since this project's completion, I have been exploring the impact of home-building on the broader housing market using a Bayesian Statistics approach. Stay tuned for more updates on that!",
+      "url": "https://all-in-one-compound-interest-calculator-hjucqixappntdenofeds9q.streamlit.app",
+      "highlights": [" Custom and Interactive Compound Interest Calculator in Python ",
+                     " All-in-one adjustable options for retirement planning",
+                     " Educational Content with all methods used"],
+      "images": [
+        {
+          "img_path": "portfolio_media/comp_int.png",
+          "caption": "Compound Interest Calculator"
+        },
+        {
+          "img_path": "portfolio_media/comp_int_sum.png",
+          "caption": "Summary of Results"
+        },
+        {
+          "img_path": "portfolio_media/comp_int_edu.png",
+          "caption": "Tutorial"
+        }
+      ]
+    },
+    {
+      "title": "Simulation of Cosmic Microwave Background Signals",
+      "summary": "You might wonder what the signal from the first light of our Universe looks like when measure by the most sensitive detectors on the planet. In this project I explore exactly that! I simulate the universe at that time using existing cosmic microwave background (CMB) simulation packages in Python, and sample it with detectors",
+      "url": "https://github.com/giannacs",
+      "highlights": [" Simulate time-ordered data from a single realization of the temperature and polarization signal of our Universe 380,000 years after its birth ",
+                     " Realistic noise simulation ",
+                     " Using realistic curved sjy projection "],
+      "images": [
+        {
+          "img_path": "portfolio_media/tod.png",
+          "caption": "Time-ordered data of CMB signal and noise"
+        },
+        {
+          "img_path": "portfolio_media/cmbT.png",
+          "caption": "CMB Temperature Sky"
+        },
+        {
+          "img_path": "portfolio_media/cmbP.png",
+          "caption": "CMB Polarization Sky"
+        }
+      ]
+    },
+    {
+      "title": "Notes on Mutlivariate Linear Regression",
+      "summary": "One of the biggest challenges in an analytical field is converting a real-world problem into a mathematical one. This can be achieved with a mathematical parametric model. To extract information about the model one can use the process of linear regression. It is especially relevant in the field of statistics, machine learning, etc. The aim of this project is to illustrate the power of linear regression",
+      "url": "https://github.com/giannacs",
+      "highlights": [" Linear regression for pedestrians  ",
+                     " With some linear algebra, get a powerful estimating tool "],
+      "images": [
+        {
+          "img_path": "portfolio_media/linreg_notes.png",
+          "caption": "Formalism"
+        },
+        {
+          "img_path": "portfolio_media/quadratic_gradients.png",
+          "caption": "Intuition on Least Squares Method"
+        }
+      ]
+    },
+    {
+      "title": "New York Times `Wordle` Game in Python",
+      "summary": "Ever played the popular NYT Wordle? Every day there is a secret five-letter word need to guess in only 6 tries! I coded the game in Python for fun! Needs a bit of work to make the UI more appealing.",
+      "url": "https://github.com/giannacs",
+      "highlights": [" - Fun Python Game -"]
+    }
+  ],
+  "volunteer_experience": [
+    {
+      "organization": "University of Cincinnati - Physics Department",
+      "position": "Student Leader",
+      "url": "https://www.artsci.uc.edu/natural-sciences/physics.html",
+      "start_date": "2021",
+      "end_date": "2025",
+      "summary": "Mentored and advised students on life skills outside of work, and facilitated vertical communication between students and faculty.",
+      "highlights": ["Secured funding for weekly meetings for 2 years in a row (2022-2024)",
+                    "Led and facilitated these meetings with discussion topic focused on academic and personal development."]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Cincinnati",
+      "location": "Cincinnati, OH",
+      "url": "https://www.artsci.uc.edu/natural-sciences/physics.html",
+      "degrees": [
+        "Doctor of Philosophy in Physics",
+        "Experimental Cosmology"
+      ],
+      "graduation_date": "December 2025"
+    }
+  ],
+  "skills": [
+    {
+      "name": "MATLAB",
+      "proficiency": 100,
+      "proficiency_label": "Expert"
+    },
+    {
+      "name": "Python",
+      "proficiency": 80,
+      "proficiency_label": "Advanced"
+    },
+    {
+      "name": "HTML, CSS, JavaScript",
+      "proficiency": 75,
+      "proficiency_label": "Comfortable"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Automotive Enthusiast",
+      "summary": "Starting from a young age, I was immersed in the thrill and excitement of automotive culture. I admire the complexity, effort, and design of most vehicles for the works of art that they are. Below are some photos of cars I have had the priviledge to drive at least once.",
+      "images": [
+        {
+          "img_path": "portfolio_media/alpha.jpeg",
+          "caption": "1974 Alpha Romeo Alfetta"
+        },
+        {
+          "img_path": "portfolio_media/bimmer.jpeg",
+          "caption": "1999 BMW E39 M5"
+        },
+        {
+          "img_path": "portfolio_media/ferrari.jpeg",
+          "caption": "1994 Ferrari 456 GT - V12 manual"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English (fluent)"
+    },
+    {
+      "language": "Greek (native)"
+    },
+    {
+      "language": "French (beginner)"
+    }
+  ],
+  "references": [
+    {
+      "name": "Dr. Colin Bischoff",
+      "relation": "Ph.D. Advisor",
+      "position": "Professor of Physics",
+      "organization": "University of Cincinnati, Ohio",
+      "email": "bischocn@ucmail.uc.edu",
+      "url": "https://www.artsci.uc.edu/natural-sciences/physics/faculty-staff/bischoff-colin.html"
+    },
+    {
+      "name": "Dr. Alexandru Maries",
+      "relation": "Collaborator",
+      "position": "Professor of Physics",
+      "organization": "University of Cincinnati, Ohio",
+      "email": "mariesau@ucmail.uc.edu"
+    }
+    ]
+}
