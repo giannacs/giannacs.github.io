@@ -167,12 +167,12 @@
     },
     {
       "name": "Python",
-      "proficiency": 80,
+      "proficiency": 75,
       "proficiency_label": "Advanced"
     },
     {
       "name": "HTML, CSS, JavaScript",
-      "proficiency": 75,
+      "proficiency": 50,
       "proficiency_label": "Comfortable"
     }
   ],
