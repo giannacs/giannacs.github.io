@@ -7,7 +7,7 @@
     "phone": "",
     "location": "Cincinnati, OH"
   },
-  "summary": "Experimental cosmologist, passionate about quantifying real-world problems and derivering data-driven solutions. Credit: Corey M. Schafer for the inspiration.",
+  "summary": "Experimental cosmologist, passionate about quantifying real-world problems and deriving data-driven solutions. Credit: Corey M. Schafer for the inspiration.",
   "url": "",
   "social_links": [
     {
@@ -222,6 +222,22 @@
       "position": "Professor of Physics",
       "organization": "University of Cincinnati, Ohio",
       "email": "mariesau@ucmail.uc.edu"
+    }
+    ],
+    "publications": [
+    {
+      "title": "Calibration Measurements of the BICEP3 and BICEP Array CMB Polarimeters from 2017 to 2024",
+      "author": "Primary",
+      "email": "giannacs@mail.uc.edu",
+      "url": "https://arxiv.org/pdf/2409.16440",
+      "summary": "This paper presents an overview of calibration measurements of the BICEP3 and BICEP Array polarimeters at the South Pole that enhances our understanding of instrument performance and systematic errors. It was presented as part of the International Society of Optics and Photonics (SPIE) Conference in June 2024 in Yokohama, Japan. The results are relevant for the ongoing efforts to measure excess B-mode polarization of the CMB. "
+    },
+    {
+      "title": "Pulsar scintillation through thick and thin: Bow shocks, bubbles, and the broader interstellar medium",
+      "author": "Secondary",
+      "email": "sko36@cornell.edu",
+      "url": "https://arxiv.org/pdf/2309.13809",
+      "summary": "Excellent paper on Pulsar scintillation by Stella Koch Ocker. Relevant to my undergraduate research using data I helped take during the summer of 2018. "
     }
     ]
 }

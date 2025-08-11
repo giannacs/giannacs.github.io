@@ -135,6 +135,30 @@
             </section>
           {% endif %}
 
+          {% if publications %}
+            <section>
+              <h2 class="section-heading">Publications</h2>
+              {% for publication in publications %}
+                <section>
+                  <h3>
+                    {% if publication.url %}
+                      <a href="{{ publication.url }}">{{ publication.title }}</a>
+                    {% else %}
+                      {{ publication.title }}
+                    {% endif %}
+                  </h3>
+                  {% if publication.summary %}<p>{{ publication.summary }}</p>{% endif %}
+                  {% if publication.author %}
+                    <p class="section-label">Author: {{ publication.author }}</p>
+                  {% endif %}
+                  {% if publication.email %}
+                    <p class="section-label">Email: <a href="mailto:{{ publication.email }}">{{ publication.email }}</a></p>
+                  {% endif %}
+                </section>
+              {% endfor %}
+            </section>
+          {% endif %}
+
           {% if projects %}
             <section>
               <h2 class="section-heading">Projects</h2>
