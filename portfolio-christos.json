@@ -7,7 +7,7 @@
     "phone": "",
     "location": "Cincinnati, OH"
   },
-  "summary": "Experimental cosmologist, passionate about quantifying real-world problems and deriving data-driven solutions. Credit: Corey M. Schafer for the inspiration.",
+  "summary": "Physics Ph.D. in experimental cosmology. Passionate about quantifying real-world problems and developing metrics to aid data-driven solutions. Credit: Corey M. Schafer for the inspiration.",
   "url": "",
   "social_links": [
     {
@@ -27,12 +27,15 @@
       "position": "Research Assistant",
       "url": "https://www.artsci.uc.edu/natural-sciences/physics.html",
       "start_date": "2019",
-      "end_date": "Fall 2025",
+      "end_date": "Spring 2026",
       "summary": "Ph.D. Candidate",
       "highlights": [
-        "Cutting edge research on experimental Cosmology within the BICEP/Keck Collaboration",
-        "Project lead on multiple calibration measurements",
-        "Quantified instrumental systematic errors and how they impact the science goal of measuring the tensor-to-scalar ratio 'r'. A non-zero measurement of r, would constitute proof of Inflation and primordial gravitational waves."
+        "Project lead on instrumental systematic error studies in the BICEP/Keck Collaboration - an experimental cosmology team leading the field in measurements of the Cosmic Microwave Background (CMB) polarization.",
+        "Instrument calibration measurements, and analysis pipeline developement for the BICEP3 and BICEP Array CMB polarimeters located at the South Pole.",
+        "Quantified the impact of systematic errors to the science goal of measuring the tensor-to-scalar ratio 'r'. A non-zero measurement of r, would constitute proof of Inflation and primordial gravitational waves.",
+        "Multi-component maximum likelihood analysis",
+        "Time-ordered CMB data simulation and analysis using advanced mathematical methods such as generalized convolutions on a sphere with no manifold connection information.",
+        "Ground temperature stability analysis at the South Pole using BICEP Array data."
       ]
     },
     {
@@ -44,7 +47,7 @@
       "summary": "",
       "highlights": [
         "Taught and tutored young students the fundementals of Physics ",
-        "Completed research project on the behavior of Nebulae formed by Pulsar Winds using the Sardinia Radio Telescope (SRT)"
+        "Completed a research project on the behavior of Nebulae formed by Pulsar Winds using data from the Sardinia Radio Telescope (SRT)"
       ]
     }
   ],
@@ -144,7 +147,9 @@
       "end_date": "2025",
       "summary": "Mentored and advised students on life skills outside of work, and facilitated vertical communication between students and faculty.",
       "highlights": ["Secured funding for weekly meetings for 2 years in a row (2022-2024)",
-                    "Led and facilitated these meetings with discussion topic focused on academic and personal development."]
+                    "Led and facilitated these meetings with discussion topic focused on academic and personal development.",
+                    "Organized social events to promote community building within the department."
+                    ]
     }
   ],
   "education": [
@@ -183,11 +188,11 @@
       "images": [
         {
           "img_path": "portfolio_media/alpha.jpeg",
-          "caption": "1974 Alpha Romeo Alfetta"
+          "caption": "1974 Alfa Romeo Alfetta - I4 manual"
         },
         {
           "img_path": "portfolio_media/bimmer.jpeg",
-          "caption": "1999 BMW E39 M5"
+          "caption": "1996 BMW E34 M5 - I6 manual"
         },
         {
           "img_path": "portfolio_media/ferrari.jpeg",
