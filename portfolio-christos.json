@@ -33,6 +33,7 @@
         "Project lead on instrumental systematic error studies in the BICEP/Keck Collaboration - an experimental cosmology team leading the field in measurements of the Cosmic Microwave Background (CMB) polarization.",
         "Instrument calibration measurements, and analysis pipeline developement for the BICEP3 and BICEP Array CMB polarimeters located at the South Pole.",
         "Quantified the impact of systematic errors to the science goal of measuring the tensor-to-scalar ratio 'r'. A non-zero measurement of r, would constitute proof of Inflation and primordial gravitational waves.",
+        "Designed an LLM model that uses Retrieval Augmented Generation (RAG) to provide collaboration-specific answers to technical questions regarding the BICEP3 and BICEP Array experiments. ",
         "Multi-component maximum likelihood analysis",
         "Time-ordered CMB data simulation and analysis using advanced mathematical methods such as generalized convolutions on a sphere with no manifold connection information.",
         "Ground temperature stability analysis at the South Pole using BICEP Array data."
@@ -53,7 +54,55 @@
   ],
   "projects": [
     {
-      "preamble": "This section contains a small list of projects I develop while pursuing my Physics Ph.D., and are relevant to my interests and hobbies. These include both applied and more theoretical topics and I update them from time-to-time. Some of these projects are notes on existing mathematical tools or notions that I add my personal insight to. Note: this list of projects are exclusively side-projects and do not include any analysis of real Cosmological data.",
+      "preamble": "This section contains a small list of projects I develop while pursuing my Physics Ph.D., and are relevant to my interests and hobbies. These include both applied and more theoretical topics and I update them from time-to-time. Some of these projects are notes on existing mathematical tools or notions that I add my personal insight to. Note: this list of projects is exclusively side-projects and do not include any analysis of real Cosmological data.",
+      "title": "Machine Learning Specialization & Deep Learning",
+      "summary": "I have recently completed the Machine Learning Learning Specialization by Andrew Ng of the Stanford AI Lab. With the rise of Machine Learning tools and applications, understanding the mathematical formalism behind these tools is crucial for any data-driven field. Especially when selecting the right tool to solve a specific problem.",
+      "url": "https://www.coursera.org/specializations/machine-learning-introduction",
+      "highlights": [" Supervised Learning Algorithms, Unsupervised Learning Algorithms, and Deep Learning Fundamentals.",
+                     " Decision Trees, Random Forests, and Convolutional Neural Networks",
+                     " Reinforcement Learning, Transfer Learning",
+                     " Model Validation, Hyperparameter Tuning, Deep Learning Architectures",
+                     " TensorFlow, Keras, PyTorch."],
+      "images": [
+        {
+          "img_path": "portfolio_media/Certificate1_Supervised_ML.pdf",
+          "caption": "Supervised Machine Learning"
+        },
+        {
+          "img_path": "portfolio_media/Certificate2_AdvancedLearning.pdf",
+          "caption": "Advanced Learning Algorithms"
+        },
+        {
+          "img_path": "portfolio_media/Certificate3_UnsupervisedLearning.pdf",
+          "caption": "Unsupervised Learning Algorithms"
+        }
+      ]
+    },
+    {
+      "title": "Financial Modeling - Compound Interest Calculator",
+      "summary": "Outside of my research in Physics, I am passionate about understanding and modeling financial markets. Most recently, I built my own compound interest calculator from first principles. I noticed that a lot of the calculator online lack tranparency in their calculations and can be perceived as fairly limited to a financially educated person. This custom-built calculator is meant to be used by such person. Since this project's completion, I have been exploring the impact of home-building on the broader housing market using a Bayesian Statistics approach. Stay tuned for more updates on that!",
+      "url": "https://all-in-one-compound-interest-calculator-hjucqixappntdenofeds9q.streamlit.app",
+      "highlights": [" Custom and Interactive Compound Interest Calculator in Python.",
+                     " All-in-one adjustable options for retirement forecasting.",
+                     " Packaged in a pedagogical manner with full methodology breakdown",
+                     " Built with Streamlit for easy web deployment - no backend.",
+                     " Open-source code on GitHub, Click the title to check it out!"],
+      "images": [
+        {
+          "img_path": "portfolio_media/comp_int.png",
+          "caption": "Compound Interest Calculator"
+        },
+        {
+          "img_path": "portfolio_media/comp_int_sum.png",
+          "caption": "Summary of Results"
+        },
+        {
+          "img_path": "portfolio_media/comp_int_edu.png",
+          "caption": "Tutorial"
+        }
+      ]
+    },
+    {
       "title": "Model Parameter Estimation with Maximum Likelihood",
       "summary": "I am passionate about statistics. Maximum likelihood estimation is a branch of statistics that is sometimes poorly motivated when taught in higher education. This project is an attempt at showing all the mathematical steps that lead to the maximum likelihood estimation method",
       "url": "https://github.com/giannacs",
@@ -67,28 +116,6 @@
         {
           "img_path": "portfolio_media/mle2.png",
           "caption": "Estimated Parameters"
-        }
-      ]
-    },
-    {
-      "title": "Financial Modeling - Compound Interest Calculator",
-      "summary": "Outside of my research in Physics, I am passionate about understanding and modeling financial markets. Most recently, I built my own compound interest calculator from first principles. I noticed that a lot of the calculator online lack tranparency in their calculations and can be perceived as fairly limited to a financially educated person. This custom-built calculator is meant to be used by such person. Since this project's completion, I have been exploring the impact of home-building on the broader housing market using a Bayesian Statistics approach. Stay tuned for more updates on that!",
-      "url": "https://all-in-one-compound-interest-calculator-hjucqixappntdenofeds9q.streamlit.app",
-      "highlights": [" Custom and Interactive Compound Interest Calculator in Python ",
-                     " All-in-one adjustable options for retirement planning",
-                     " Educational Content with all methods used"],
-      "images": [
-        {
-          "img_path": "portfolio_media/comp_int.png",
-          "caption": "Compound Interest Calculator"
-        },
-        {
-          "img_path": "portfolio_media/comp_int_sum.png",
-          "caption": "Summary of Results"
-        },
-        {
-          "img_path": "portfolio_media/comp_int_edu.png",
-          "caption": "Tutorial"
         }
       ]
     },
@@ -195,7 +222,7 @@
           "caption": "1996 BMW E34 M5 - I6 manual"
         },
         {
-          "img_path": "portfolio_media/ferrari.jpeg",
+          "img_path": "portfolio_media/ferrari.png",
           "caption": "1994 Ferrari 456 GT - V12 manual"
         }
       ]
