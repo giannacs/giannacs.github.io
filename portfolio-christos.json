@@ -7,7 +7,7 @@
     "phone": "",
     "location": "Cincinnati, OH"
   },
-  "summary": "Physics Ph.D. in experimental cosmology. Passionate about quantifying real-world problems and developing metrics to aid data-driven solutions. Credit: Corey M. Schafer for the inspiration.",
+  "summary": "Physics Ph.D. in experimental cosmology. Passionate about quantifying real-world problems and developing metrics to aid data-driven solutions. Thank you to Corey M. Schafer for the inspiration.",
   "url": "",
   "social_links": [
     {
@@ -24,10 +24,10 @@
   "work_experience": [
     {
       "company": "University of Cincinnati",
-      "position": "Research Assistant",
+      "position": "Research Scientist",
       "url": "https://www.artsci.uc.edu/natural-sciences/physics.html",
-      "start_date": "2019",
-      "end_date": "Spring 2026",
+      "start_date": "2020",
+      "end_date": "January 2026",
       "summary": "Ph.D. Candidate",
       "highlights": [
         "Project lead on instrumental systematic error studies in the BICEP/Keck Collaboration - an experimental cosmology team leading the field in measurements of the Cosmic Microwave Background (CMB) polarization.",
@@ -35,8 +35,21 @@
         "Quantified the impact of systematic errors to the science goal of measuring the tensor-to-scalar ratio 'r'. A non-zero measurement of r, would constitute proof of Inflation and primordial gravitational waves.",
         "Designed an LLM model that uses Retrieval Augmented Generation (RAG) to provide collaboration-specific answers to technical questions regarding the BICEP3 and BICEP Array experiments. ",
         "Multi-component maximum likelihood analysis",
-        "Time-ordered CMB data simulation and analysis using advanced mathematical methods such as generalized convolutions on a sphere with no manifold connection information.",
+        "Time-ordered CMB data simulation and analysis using advanced mathematical methods, such as generalized convolutions on the sphere, without relying on manifold connection information.",
         "Ground temperature stability analysis at the South Pole using BICEP Array data."
+      ]
+    },
+    {
+      "company": "University of Cincinnati",
+      "position": "Teaching Assistant",
+      "url": "https://www.artsci.uc.edu/natural-sciences/physics.html",
+      "start_date": "2019",
+      "end_date": "2020",
+      "summary": "Ph.D. Candidate",
+      "highlights": [
+        "Taught and coordinated physics labs and recitations for 200+ students.",
+        "Utilized active learning techniques to stimulate student engagement to maximize learning outcomes.",
+        "Bolstered learning of complex physics concepts through problem-solving sessions."
       ]
     },
     {
@@ -47,8 +60,8 @@
       "end_date": "2019",
       "summary": "",
       "highlights": [
-        "Taught and tutored young students the fundementals of Physics ",
-        "Completed a research project on the behavior of Nebulae formed by Pulsar Winds using data from the Sardinia Radio Telescope (SRT)"
+        "Taught and tutored undergraduates on the fundementals of Physics ",
+        "Characterized Pulsar Wind Nebulae phenomenology using data from the Sardinia Radio Telescope (SRT)"
       ]
     }
   ],
@@ -66,7 +79,7 @@
       "images": [
         {
           "img_path": "portfolio_media/Certificate1_Supervised_ML.pdf",
-          "caption": "Supervised Machine Learning"
+          "caption": "Supervised Learning Algorithms"
         },
         {
           "img_path": "portfolio_media/Certificate2_AdvancedLearning.pdf",
@@ -188,7 +201,7 @@
         "Doctor of Philosophy in Physics",
         "Experimental Cosmology"
       ],
-      "graduation_date": "December 2025"
+      "graduation_date": "January 2026"
     }
   ],
   "skills": [
