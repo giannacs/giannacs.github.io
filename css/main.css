@@ -471,3 +471,123 @@ blockquote {
     print-color-adjust: exact !important;
   }
 }
+
+/* Resume card styles */
+.resume-card {
+  margin-bottom: 1.25rem;
+}
+.resume-card .card {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding: 1rem;
+  border: 1px solid #e6e6e6;
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+}
+.resume-card .card-media {
+  flex: 0 0 auto;
+}
+.resume-card .card-body {
+  flex: 1 1 auto;
+}
+.resume-card .card-body .muted {
+  color: #666666;
+  margin-bottom: 0.5rem;
+}
+.card-actions {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-top: 0.5rem;
+}
+.btn {
+  display: inline-block;
+  padding: 0.5rem 0.9rem;
+  border-radius: 6px;
+  text-decoration: none;
+  border: 1px solid transparent;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+.btn-primary {
+  /* Use site palette with subtle, semi-transparent fill for better contrast */
+  background: rgba(0, 119, 204, 0.08); /* based on --link-color */
+  color: var(--link-color);
+  border: 1px solid rgba(0, 119, 204, 0.22);
+  box-shadow: none;
+  padding: 0.55rem 0.95rem;
+  transition: background 150ms ease, box-shadow 150ms ease, transform 120ms ease;
+}
+.btn-primary:hover {
+  background: rgba(0, 119, 204, 0.14);
+}
+.btn-primary:focus {
+  outline: 3px solid rgba(0, 119, 204, 0.12);
+  outline-offset: 2px;
+}
+.btn-outline {
+  background: transparent;
+  color: var(--link-color);
+  border-color: var(--link-color);
+}
+.btn-outline:hover {
+  background: #f6f8fa;
+}
+
+@media (max-width: 47.99rem) {
+  .resume-card .card {
+    flex-direction: column;
+    text-align: center;
+  }
+  .resume-card .card-media {
+    margin-bottom: 0.5rem;
+  }
+}
+
+/* Hero CTA and badges */
+.hero {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: flex-start;
+}
+.hero-ctas {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+}
+.hero-badges {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.badge {
+  background: rgba(0,0,0,0.05);
+  color: #333;
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.85rem;
+  border: 1px solid rgba(0,0,0,0.06);
+}
+
+/* small inline CTA next to project titles */
+.project-cta {
+  margin-left: 0.5rem;
+  font-size: 0.9rem;
+  color: var(--link-color);
+  text-decoration: none;
+  opacity: 0.9;
+}
+.project-cta:hover {
+  text-decoration: underline;
+  opacity: 1;
+}
+
+@media (min-width: 48rem) {
+  .hero { flex-direction: row; justify-content: space-between; align-items: center; }
+}

@@ -101,14 +101,59 @@
               </ul>
             {% endif %}
             {% if summary %}<p class="header-summary">{{ summary }}</p>{% endif %}
+
+            <!-- Hero CTA: quick entry to resume and projects -->
+            <div class="hero">
+              <div class="hero-ctas">
+                {% if resume_url %}
+                  <a href="{{ resume_url }}" class="btn btn-primary" target="_blank" rel="noopener">View Resume</a>
+                {% else %}
+                  <a href="/resume.html" class="btn btn-primary">View Resume</a>
+                {% endif %}
+                <a href="#projects" class="btn btn-outline">See Projects</a>
+              </div>
+              <div class="hero-badges">
+                {% if years_experience %}<span class="badge">{{ years_experience }} yrs experience</span>{% endif %}
+                {% if projects_count %}<span class="badge">{{ projects_count }} projects</span>{% endif %}
+                {% if publications_count %}<span class="badge">{{ publications_count }} publications</span>{% endif %}
+              </div>
+            </div>
           </div>
         </div>
+        
       </div>
     </header>
 
     <div class="page-content">
       <div class="container">
         <main>
+          <section class="resume-card">
+            <div class="card">
+              <div class="card-media">
+                <!-- Inline PDF icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <rect width="24" height="24" rx="4" fill="#e63946"></rect>
+                  <path d="M7 17h10V7H7v10z" fill="#fff" opacity="0.06"></path>
+                  <path d="M9 8h6v1H9zM9 11h6v1H9zM9 14h4v1H9z" fill="#fff"></path>
+                </svg>
+              </div>
+              <div class="card-body">
+                <h2 class="section-heading">Resume</h2>
+                <p class="muted">
+                  {% if resume_last_modified %}Last updated: {{ resume_last_modified }}{% endif %}
+                  {% if resume_file_size %} — {{ resume_file_size }}{% endif %}
+                </p>
+                <div class="card-actions">
+                  {% if resume_url %}
+                    <a href="{{ resume_url }}" class="btn btn-primary" target="_blank" rel="noopener">View Online</a>
+                  {% else %}
+                    <a href="/resume.html" class="btn btn-primary">View Resume</a>
+                  {% endif %}
+                </div>
+              </div>
+            </div>
+          </section>
+
           {% if work_experience %}
             <section>
               <h2 class="section-heading">Work Experience</h2>
@@ -142,7 +187,8 @@
                 <section>
                   <h3>
                     {% if publication.url %}
-                      <a href="{{ publication.url }}">{{ publication.title }}</a>
+                          <a href="{{ publication.url }}" target="_blank" rel="noopener">{{ publication.title }}</a>
+                          <a href="{{ publication.url }}" class="project-cta" target="_blank" rel="noopener">(click to view)</a>
                     {% else %}
                       {{ publication.title }}
                     {% endif %}
@@ -160,14 +206,15 @@
           {% endif %}
 
           {% if projects %}
-            <section>
+            <section id="projects">
               <h2 class="section-heading">Projects</h2>
               {% for project in projects %}
                 <section>
                   {% if project.preamble %}<p>{{ project.preamble }}</p>{% endif %}<br>
                   <h3>
                     {% if project.url %}
-                      <a href="{{ project.url }}">{{ project.title }}</a>
+                      <a href="{{ project.url }}" target="_blank" rel="noopener">{{ project.title }}</a>
+                      <a href="{{ project.url }}" class="project-cta" target="_blank" rel="noopener">(click to view)</a>
                     {% else %}
                       {{ project.title }}
                     {% endif %}

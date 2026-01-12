@@ -15,6 +15,26 @@ with Path("portfolio-christos.json").open(encoding="utf-8") as f:
 # Add any extra context if needed
 data["current_year"] = utc_time.year
 
+# Compute resume file metadata if resume_url points to a local file
+def _human_readable_size(num, suffix='B'):
+    for unit in ['','K','M','G','T','P']:
+        if num < 1024.0:
+            return f"{num:.1f}{unit}{suffix}"
+        num /= 1024.0
+    return f"{num:.1f}P{suffix}"
+
+resume_url = data.get("resume_url")
+if resume_url:
+    resume_path = Path(resume_url.lstrip('/'))
+    if resume_path.exists():
+        st = resume_path.stat()
+        # data["resume_file_size"] = _human_readable_size(st.st_size)
+        data["resume_last_modified"] = datetime.fromtimestamp(st.st_mtime, utc_tz).strftime('%Y-%m-%d')
+    else:
+        # If path doesn't exist locally, leave metadata blank
+        # data["resume_file_size"] = None
+        data["resume_last_modified"] = None
+
 if "social_links" in data:
     for link in data["social_links"]:
         if link.get("svg_path"):
