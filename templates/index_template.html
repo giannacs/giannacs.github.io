@@ -100,6 +100,11 @@
                 {% endfor %}
               </ul>
             {% endif %}
+            {% if greeting %}
+              <p class="header-greeting">{{ greeting }}</p>
+            {% else %}
+              <p class="header-greeting">Welcome!.</p>
+            {% endif %}
             {% if summary %}<p class="header-summary">{{ summary }}</p>{% endif %}
 
             <!-- Hero CTA: quick entry to resume and projects -->

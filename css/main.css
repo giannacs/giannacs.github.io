@@ -185,6 +185,9 @@ section {
   margin: 1.25rem 0;
 }
 
+/* Preserve newlines in JSON-rendered summary text */
+.header-summary { white-space: pre-line; }
+
 .page-footer {
   border-top: 1px solid #ccc;
 }

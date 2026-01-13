@@ -7,7 +7,8 @@
     "phone": "",
     "location": "Cincinnati, OH"
   },
-  "summary": "Physics Ph.D. in experimental cosmology. Passionate about quantifying real-world problems and developing accurate metrics to aid data-driven solutions. Committed to a lifetime of learning and building deep expertise in Mathematics, Statistics, and Machine Learning. Thank you to Corey M. Schafer for the inspiration.",
+  "summary": "I am a Research Scientist with a Physics Ph.D. in experimental cosmology. Passionate about quantifying real-world problems and developing accurate metrics to aid data-driven solutions. Committed to a lifetime of learning and building deep expertise in Mathematics, Statistics, and Machine Learning. \n \n For a formal introduction, please refer to my resume. For more details about my various sideprojects and skills, please explore the rest of my portfolio website.",
+  "greeting": "Hello - welcome to my website!",
   "url": "",
   "resume_url": "/portfolio_media/resume.pdf",
   "social_links": [
@@ -27,7 +28,7 @@
       "company": "University of Cincinnati",
       "position": "Research Scientist",
       "url": "https://www.artsci.uc.edu/natural-sciences/physics.html",
-      "start_date": "2020",
+      "start_date": "2021",
       "end_date": "January 2026",
       "summary": "Ph.D. Candidate",
       "highlights": [
@@ -45,7 +46,7 @@
       "position": "Teaching Assistant",
       "url": "https://www.artsci.uc.edu/natural-sciences/physics.html",
       "start_date": "2019",
-      "end_date": "2020",
+      "end_date": "2021",
       "summary": "Ph.D. Candidate",
       "highlights": [
         "Taught and coordinated physics labs and recitations for 200+ students.",
