@@ -32,8 +32,8 @@ if resume_url:
         data["resume_last_modified"] = datetime.fromtimestamp(st.st_mtime, utc_tz).strftime('%Y-%m-%d')
     else:
         # If path doesn't exist locally, leave metadata blank
-        # data["resume_file_size"] = None
-        data["resume_last_modified"] = None
+        data["resume_file_size"] = None
+        # data["resume_last_modified"] = None
 
 if "social_links" in data:
     for link in data["social_links"]:
