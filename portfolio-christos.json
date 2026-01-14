@@ -241,6 +241,24 @@
           "caption": "1994 Ferrari 456 GT - V12 manual"
         }
       ]
+    },
+    {
+      "name": "NCAA Division II Basketball Player",
+      "summary": "I played NCAA Division II basketball for Hillsdale College from 2015 to 2019. During my time there, I was part of a great team that made it to the NCAA Division II top 32 in 2018, and was part of the Academic Excellence team for 3 years in a row. Below are some action shots from my playing days.",
+      "images": [
+        {
+          "img_path": "portfolio_media/IMG_2530_me.jpeg",
+          "caption": "Home game highlight"
+        },
+        {
+          "img_path": "portfolio_media/IMG_2681.JPG",
+          "caption": "Home game highlight"
+        },
+        {
+          "img_path": "portfolio_media/IMG_2390_team.JPG",
+          "caption": "2017 Hillsdale College Men's Basketball Team"
+        }
+      ]
     }
   ],
   "languages": [
@@ -248,7 +266,7 @@
       "language": "English (fluent)"
     },
     {
-      "language": "Greek (native)"
+      "language": "Greek (fluent)"
     },
     {
       "language": "French (beginner)"
