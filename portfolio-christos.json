@@ -200,27 +200,31 @@
       "location": "Cincinnati, OH",
       "url": "https://www.artsci.uc.edu/natural-sciences/physics.html",
       "degrees": [
-        "Doctor of Philosophy in Physics",
-        "Experimental Cosmology"
+        "Doctor of Philosophy in Physics - Experimental Cosmology"
       ],
-      "graduation_date": "January 2026"
+      "graduation_date": "March 2026"
     }
   ],
   "skills": [
     {
       "name": "MATLAB",
       "proficiency": 100,
-      "proficiency_label": "Expert"
+      "proficiency_label": "Expert (7+ years)"
     },
     {
       "name": "Python",
+      "proficiency": 100,
+      "proficiency_label": "Expert (5+ years)"
+    },
+    {
+      "name": "SQL",
       "proficiency": 75,
-      "proficiency_label": "Advanced"
+      "proficiency_label": "Advanced (2+ years)"
     },
     {
       "name": "HTML, CSS, JavaScript",
       "proficiency": 50,
-      "proficiency_label": "Comfortable"
+      "proficiency_label": "Comfortable (2+ years)"
     }
   ],
   "interests": [
