@@ -32,7 +32,7 @@
       "end_date": "January 2026",
       "summary": "Ph.D. student researcher part of the BICEP/Keck Collaboration: a federally funded experimental cosmology program leading the field in measurements of the Cosmic Microwave Background (CMB) polarization.",
       "highlights": [
-        "Architected an end-to-end NLP pipeline using <strong>spaCy</strong> and leveraging the open-source Llama 3.1-8B LLM for Retrieval-Augmented Generation <strong>(RAG)</strong> to mine large, multi-source unstructured datasets which enabled topic detection, keyword extraction, and domain Q&A.",
+        "Built an end-to-end NLP pipeline using <strong>spaCy</strong> to mine large, multi-source unstructured datasets which enabled named entity recognition and relationship extraction to reduce manual review time of scientific literature.",
         "Conducted extensive exploratory data analysis on <strong>high-dimensional, and multi-modal sensor data</strong>. Engineered new features through domain-informed PCA/SVD and dimensionality reduction to feed scalable end-to-end pipelines.",
         "Built and optimized predictive models on <strong>complex, unstructured datasets</strong> (time series, point clouds, spatial maps) using <strong>Bayesian inference</strong> and <strong>Gaussian processes</strong>, improving detection sensitivity by 2×.",
         "Maintained large-scale data pipelines processing <strong>multi-terabyte</strong> datasets on distributed computing clusters, consistently delivering production-quality outputs under tight deadlines.",
@@ -40,6 +40,7 @@
         "Developed <strong>model validation frameworks</strong> that quantified previously unmeasured system uncertainties, informing hardware design trade-offs and achieving a 78% reduction in compute costs.",
         "Led a <strong>cross-functional team</strong> on a six-month project whose published results became the collaboration-wide analysis standard. (see publications below)",
         "Designed <strong>scalable algorithms</strong> that improved pipeline runtime by 8×, enabling near real-time data quality monitoring across a distributed high-performance computing infrastructure.",
+        "Architected a self-correcting RAG custom agent leveraging the 8B Llama 3.1 LLM to provide domain-specific Q&A.",
         "Mentored junior researchers in statistical methods, analysis workflows, and best practices while serving as <strong>subject matter expert</strong> for data system performance and model validation.",
         "Became an expert in: PCA/SVD, Bayesian statistics/inference, Multi-component maximum likelihood analysis",
         "Developed expertise in: Deep Learning, Reinforcement Learning, Transfer Learning, Anomaly Detection, Clustering, Decision Trees, Random Forests, Convolutional Neural Networks",
